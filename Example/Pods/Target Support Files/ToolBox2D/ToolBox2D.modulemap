@@ -1,0 +1,6 @@
+framework module ToolBox2D {
+  umbrella header "ToolBox2D-umbrella.h"
+
+  export *
+  module * { export * }
+}

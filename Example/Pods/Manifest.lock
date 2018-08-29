@@ -1,0 +1,16 @@
+PODS:
+  - ToolBox2D (0.0.1)
+
+DEPENDENCIES:
+  - ToolBox2D (from `../`)
+
+EXTERNAL SOURCES:
+  ToolBox2D:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ToolBox2D: a8c34ecaf482e675a607b5acebffeeea360e22b0
+
+PODFILE CHECKSUM: ba4a49cfc198a0ffd169e757864b1bbd33672dde
+
+COCOAPODS: 1.5.3
