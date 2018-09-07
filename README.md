@@ -8,7 +8,7 @@
 ToolBox is a ToolBox2D library  for 2D game written in Swift.
 
 - [Installation](#installation)
-- [Texrure Manager](#texrure-manager)
+- [Texture Manager](#texture-manager)
 - [Requirements](#requirements)
 - [Author](#Author)
 
@@ -23,7 +23,7 @@ it, simply add the following line to your Podfile:
 pod 'ToolBox2D'
 ```
 
-## texrure Manager
+## Texture Manager
 ```swift
 //Definition
 extension TextureDetails.Atlas {
