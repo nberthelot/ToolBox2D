@@ -11,7 +11,8 @@
 		42F0AD711D8AAAD30E864C231BBC2465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		46050659EF29481C9CFA56FA0E7F2385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		488CA355C2F8811F1C7D55583EA23015 /* Pods-ToolBox2D_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE6D75D8DB0E0AB1F87E49FF8405FEE /* Pods-ToolBox2D_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B656478900F9E7454F885E72B774F7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17C730E7896F2F54BF6F133F98DC25 /* ReplaceMe.swift */; };
+		7328E61521427F49006A4D83 /* TextureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328E61321427F49006A4D83 /* TextureDetails.swift */; };
+		7328E61621427F49006A4D83 /* TextureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328E61421427F49006A4D83 /* TextureManager.swift */; };
 		912FE4535357E722E89B3C4DE472FD77 /* Pods-ToolBox2D_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5E55133737D0B607F6B7E71106E6BB /* Pods-ToolBox2D_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C20BEC36354E54E135B0EF8283C8A95 /* Pods-ToolBox2D_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7510F9AA50334828E476C87F02682 /* Pods-ToolBox2D_Tests-dummy.m */; };
 		B7F29A25573EB3F40BD2D48BF8AF1C95 /* ToolBox2D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C27389D6E17B2622A505FE136634CC /* ToolBox2D-dummy.m */; };
@@ -42,24 +43,26 @@
 		14D9404A806AE134B7B9A8DD7258CECE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4C1D4F642B0CD743089770FB5073A1 /* Pods-ToolBox2D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToolBox2D_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1E3E2962516FD6767BEB22B85779C683 /* ToolBox2D.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToolBox2D.xcconfig; sourceTree = "<group>"; };
-		20F44AA6AB63896F4A34A2C643BE8D1B /* Pods_ToolBox2D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToolBox2D_Tests.framework; path = "Pods-ToolBox2D_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F44AA6AB63896F4A34A2C643BE8D1B /* Pods_ToolBox2D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolBox2D_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E1EC5392079DD7B7C97D27D9200FF2 /* Pods-ToolBox2D_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToolBox2D_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F3ACF9A18BCEA7F15F8900A0BFAD916 /* Pods_ToolBox2D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToolBox2D_Example.framework; path = "Pods-ToolBox2D_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3ACF9A18BCEA7F15F8900A0BFAD916 /* Pods_ToolBox2D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolBox2D_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E1FD3E0B797E54402654A457607D6A /* ToolBox2D.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ToolBox2D.modulemap; sourceTree = "<group>"; };
 		3C8555DFC0F8C4705DE45D48886C0EAE /* Pods-ToolBox2D_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToolBox2D_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4CE6D75D8DB0E0AB1F87E49FF8405FEE /* Pods-ToolBox2D_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToolBox2D_Example-umbrella.h"; sourceTree = "<group>"; };
 		5726BC1A03575260695302213F029A1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C5E55133737D0B607F6B7E71106E6BB /* Pods-ToolBox2D_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToolBox2D_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6EB2F1A88F8B8ADE21B3F757E46CF8F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6EB2F1A88F8B8ADE21B3F757E46CF8F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7328E61321427F49006A4D83 /* TextureDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureDetails.swift; sourceTree = "<group>"; };
+		7328E61421427F49006A4D83 /* TextureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureManager.swift; sourceTree = "<group>"; };
 		77533630100292ED360CB362F1DDC4D0 /* Pods-ToolBox2D_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToolBox2D_Example.release.xcconfig"; sourceTree = "<group>"; };
 		79E18AFE534CFE4DF5C4F4962D2AD20A /* Pods-ToolBox2D_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToolBox2D_Example-resources.sh"; sourceTree = "<group>"; };
 		7F6E837644B62AFD0567FE0FE740379A /* Pods-ToolBox2D_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToolBox2D_Example.modulemap"; sourceTree = "<group>"; };
 		80AAC6211FE3FA4179A01AD5C311527E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		898EEC68DFBA3E53D9E9C5BB905BB456 /* ToolBox2D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ToolBox2D.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		898EEC68DFBA3E53D9E9C5BB905BB456 /* ToolBox2D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ToolBox2D.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8AA7510F9AA50334828E476C87F02682 /* Pods-ToolBox2D_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToolBox2D_Tests-dummy.m"; sourceTree = "<group>"; };
 		912E36E333789F60B79E5F5CA4FD7A83 /* Pods-ToolBox2D_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToolBox2D_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F87626479EE6B8D14C0D17D1BD64A97 /* Pods-ToolBox2D_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToolBox2D_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0FB980A3581A8FE359EA71BCCF0C409 /* Pods-ToolBox2D_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToolBox2D_Tests-resources.sh"; sourceTree = "<group>"; };
 		B3C27389D6E17B2622A505FE136634CC /* ToolBox2D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ToolBox2D-dummy.m"; sourceTree = "<group>"; };
@@ -67,11 +70,10 @@
 		B8600AD803C4266D3CC55220B6693D71 /* Pods-ToolBox2D_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToolBox2D_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C0CD1C5259A9DBF7DF431D14D446E97D /* Pods-ToolBox2D_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToolBox2D_Tests.modulemap"; sourceTree = "<group>"; };
 		CFE9D378BEF9023B35A7C99AD9CD45E8 /* ToolBox2D-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToolBox2D-prefix.pch"; sourceTree = "<group>"; };
-		DC17C730E7896F2F54BF6F133F98DC25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ToolBox2D/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DE28CA567EE353A254B5CA15BE6BE657 /* Pods-ToolBox2D_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToolBox2D_Example-dummy.m"; sourceTree = "<group>"; };
 		E21E12A61C10E9C20A6BF575A545FBB5 /* Pods-ToolBox2D_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToolBox2D_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F132EAA36253F54E3A78861445964C17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F3EE4BABAC523ACCBE5470E0688D9E19 /* ToolBox2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ToolBox2D.framework; path = ToolBox2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F132EAA36253F54E3A78861445964C17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F3EE4BABAC523ACCBE5470E0688D9E19 /* ToolBox2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToolBox2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +121,7 @@
 		0BFDC5C0648FAE9E5CEAE8A6A10F5BF5 /* ToolBox2D */ = {
 			isa = PBXGroup;
 			children = (
-				DC17C730E7896F2F54BF6F133F98DC25 /* ReplaceMe.swift */,
+				7328E61221427F49006A4D83 /* TextureManager */,
 				AA1E0B65798A35EC116409174022DFE6 /* Pod */,
 				01509CF805837A84128464405E1792C8 /* Support Files */,
 			);
@@ -161,6 +163,16 @@
 			);
 			name = "Pods-ToolBox2D_Example";
 			path = "Target Support Files/Pods-ToolBox2D_Example";
+			sourceTree = "<group>";
+		};
+		7328E61221427F49006A4D83 /* TextureManager */ = {
+			isa = PBXGroup;
+			children = (
+				7328E61321427F49006A4D83 /* TextureDetails.swift */,
+				7328E61421427F49006A4D83 /* TextureManager.swift */,
+			);
+			name = TextureManager;
+			path = ToolBox2D/Classes/TextureManager;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -318,6 +330,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					CDD5166BA6799D0AF1A5244ED15CE44C = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,7 +376,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B656478900F9E7454F885E72B774F7 /* ReplaceMe.swift in Sources */,
+				7328E61521427F49006A4D83 /* TextureDetails.swift in Sources */,
+				7328E61621427F49006A4D83 /* TextureManager.swift in Sources */,
 				B7F29A25573EB3F40BD2D48BF8AF1C95 /* ToolBox2D-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E3E2962516FD6767BEB22B85779C683 /* ToolBox2D.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -610,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E3E2962516FD6767BEB22B85779C683 /* ToolBox2D.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
