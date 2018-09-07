@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToolBox2D'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'ToolBox2D is a toolbox ;)'
   
   s.description      = <<-DESC
